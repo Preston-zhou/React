@@ -8,7 +8,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 // })
 
 module.exports = {
-    mode: 'production',    //development  production
+    mode: 'development',    //development  production
     plugins:[   //配置插件的节点
         new htmlWebpackPlugin({   //创建一个在内存中生成html页面的插件
             template:path.join(__dirname,'./src/index.html'),   //指定模板页面
