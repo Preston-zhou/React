@@ -3,7 +3,7 @@
 // 1、引入核心模块
 import React from 'react'
 import ReactDom from 'react-dom'
-import App from './App4'
+import App from './App5'
 
 
 // 2、 把对应的内容渲染到id 为root的标签上
